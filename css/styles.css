@@ -20,7 +20,7 @@ body{
     background-color: #1F2937;
     color: #E5E7EB;
     gap: 50px;
-    padding: 20px 150px 150px;
+    padding: 20px 150px 150px 150px;
 }
 
 .navbar{
@@ -51,13 +51,14 @@ body{
 .description{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .left-side{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    flex: 1;
+    flex: 1 0 400px;
 }
 
 .main-text{
@@ -72,10 +73,69 @@ body{
 }
 
 .right-side{
-    flex: 1;
+    flex: 1 0 570px;
 }
 
 .right-side img{
     width: 100%;
     box-shadow: 0 0 20px  #E5E7EB;
+    border-radius: 2%;
 }
+
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  button.sign-up-btn1 {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+    display: flex;
+  }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    gap: 30px;
+}
+
+.info-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-boxes{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 200px;
+    gap: 10px;
+}
+
+.box{
+    display: flex;
+    border: 4px solid #3882F6;
+    border-style: groove ;
+    border-radius: 3%;
+}
+
+.box>img{ 
+    max-width: 100%;
+    border-radius: 2%;
+    flex: 1 0 200px;
+}
+
+
+
+
